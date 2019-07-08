@@ -1,2 +1,3 @@
 # ProxyFormat
-Simple script to format and rotate proxies
+Simple script to format both user:pass proxies and standard proxies.
+user:password@ip:port
