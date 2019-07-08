@@ -26,7 +26,7 @@ proxy.formatProxies = proxyList =>{
         return validProxies;
 }
 
-proxy.roatatedProxy = validProxies => {
+proxy.rotatedProxy = validProxies => {
     let newProxy = validProxies[Math.floor(Math.random() * validProxies.length)];
     return newProxy;
 }
